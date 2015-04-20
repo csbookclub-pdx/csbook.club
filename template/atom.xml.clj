@@ -1,5 +1,5 @@
 ; @title  csbook.club
-; @base   http://localhost:8080
+; @base   http://csbook.club
 
 "<?xml version=\"1.0\" encoding=\"utf-8\"?>"
 [:feed {:xmlns "http://www.w3.org/2005/Atom"}
