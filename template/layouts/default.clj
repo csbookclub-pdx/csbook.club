@@ -22,9 +22,9 @@
 
 (defn nav-section [twitter-name]
   [:p
-    (link "rss" "//csbook.club/atom.xml")
+    (link "// rss" "//csbook.club/atom.xml")
     (str " / ")
-    (link "github" "https://github.com/rattboi/csbook.clu")])
+    (link "github" "https://github.com/rattboi/csbook.club")])
 [:head
  [:meta {:charset (:charset site)}]
  [:meta {:name    "viewport"
