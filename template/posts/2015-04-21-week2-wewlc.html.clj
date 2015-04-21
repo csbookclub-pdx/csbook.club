@@ -3,6 +3,6 @@
 ; @tag    weekly 
 
 (p "Last week's reading consisted of the following chapters from " (link "Working Effectively with Legacy Code" "http://www.amazon.com/dp/0131177052")", by Michael Feathers:") 
-(ul (list (str "Chapter 4 - Seams") 
+(ul (list (str "Chapter 4 - The Seam Model") 
           (str "Chapter 5 - Tools")))
 
