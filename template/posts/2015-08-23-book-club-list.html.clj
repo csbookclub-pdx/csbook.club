@@ -59,7 +59,7 @@
 
 (p "Previously we've read:")
 
-(ol (list (finished-book "Clean Code: A Handbook of Agile Software Craftsmanship"
+(ul (list (finished-book "Clean Code: A Handbook of Agile Software Craftsmanship"
                          "Robert C. Martin"
                          "http://www.amazon.com/dp/0132350882")
           (finished-book "Actor Model of Computation: Scalable Robust Information Systems"
