@@ -1,5 +1,5 @@
 ; @layout post
-; @title  Tech Book Club List
+; @title  Tech Book Club List (Spring 2015)
 ; @tag    books
 
 (defn been-read [book]
