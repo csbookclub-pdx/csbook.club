@@ -6,7 +6,13 @@ env:
   - secure: QvuZzIdEzi8oyX7TA4uI7agGXFuhrmWcPuKvfLH8Gy/FNGkYQwJo4ZNU3LmbXAgwfBhm9pvEE8xhizxrOOPlURgETcjw1wDAU2AZsrgiW+3XPOgELLtG75qseGjmSdmO5wRibODIz6UUzGMW13hiwigcuuk/EU8Dfgf9sr9nlGY=
   - secure: bZN1R8PW6YNbrIufhxoS3iMdyRo72LGqGt7CIU2Ba43srBNtrJSTGQVVYlX4XwioDCIzOGDt3xK7qcmZnFNambMpVCWQmfXvTkrhRyAFLN00a2HO8cyy/XPzHvZrYbjfeB4G5Y7Qp/8ULcb71pe4xzN2fuQTW2rxh4r++5O5BX4=
   - secure: cp4+azRB+UdZOGjkfwVO8NNJmbIpV7K+XEcT2iMiLp/Jmzdcao2ZGmiVp/K8/TV4sn4EirZSRFXETDEgmHOz+WUr/vau7uH9tjFPGcX5CCGGkAthVKGm7/cqpTC2R3bsI9U7o2thcmXIcCJUNm1O2xwB7Ay1uVkeK4Ysy1I9V2c=
-install: sudo apt-get install expect
+sudo: false
+addons:
+  apt:
+    packages:
+    - expect
+    - grep
+    - rsync
 script: lein2 with-profile dev misaki --compile
 after_success: bin/deploy.sh
 jdk:
