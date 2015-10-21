@@ -17,7 +17,7 @@
    [:p {:class "topmargin"} (link "[more...]" url)]])
 
 (defn preview-posts [site]
-  (map preview-post (take 5 (:posts site))))
+  (map preview-post (take 10 (:posts site))))
 ;  (drop-last (interleave (map preview-post (take 5 (:posts site))) (repeat [:hr])))) ; old version w/ HR
 
 ; // TEMPLATES
