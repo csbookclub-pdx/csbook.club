@@ -2,7 +2,7 @@
 ; @title  Beautiful Code - Week 6
 ; @tag    weekly
 
-(p "We intended to meet this week to discuss chapter 6 of "
+(p "We intended to meet this week to discuss chapter 7 of "
   (link "Beautiful Code: Leading Programmers Explain How They Think"
         "http://www.amazon.com/dp/0596510047")
   ", but due to various schedule conflicts were unable to.")
