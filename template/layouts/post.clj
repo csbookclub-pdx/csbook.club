@@ -29,4 +29,4 @@
  ; previous/next post
  (prev-next-post-link)
 
- (disqus "tbd-csbookclub")]
+ (disqus "csbookclub")]
