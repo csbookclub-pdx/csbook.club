@@ -25,7 +25,7 @@
     (str "// ")
     (link "rss" "//csbook.club/atom.xml")
     (str " / ")
-    (link "github" "https://github.com/rattboi/csbook.club")])
+    (link "github" "https://github.com/csbookclub-pdx/csbook.club")])
 [:head
  [:meta {:charset (:charset site)}]
  [:meta {:name    "viewport"
@@ -50,7 +50,7 @@
 [:body
 
  ; github ribbon
- (github-ribbon "https://github.com/rattboi/csbook.club")
+ (github-ribbon "https://github.com/csbookclub-pdx/csbook.club")
 
  (container
   [:div {:style "overflow: hidden"}
