@@ -58,6 +58,9 @@
           (book "Threat Modeling: Designing for Security"
                 "Adam Shostack"
                 "http://www.amazon.com/gp/product/1118809998")
+          (book "Refactoring: Improving the Design of Existing Code"
+                "Martin Fowler"
+                "http://www.amazon.com/Refactoring-Improving-Design-Existing-Code/dp/0201485672")
 ))
 
 (p (link
