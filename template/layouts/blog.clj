@@ -4,9 +4,6 @@
 
 ; // FUNCTIONS
 
-;(defn render-tag [{:keys [url name]}]
-; [:a {:href url} name])
-
 (defn trim [post-file]
   (misaki.compiler.default.core/file->template-sexp post-file :allow-layout? false))
 
@@ -14,7 +11,7 @@
   [:div {:class "post"}
    (post-header :h1 title url)
    (take 6 (trim file))
-   [:p {:class "topmargin"} (link "[more...]" url)]])
+   [:p {:class "topmargin"} (link "[Full Article / Comments]" url)]])
 
 (defn preview-posts [site]
   (map preview-post (take 10 (:posts site))))
