@@ -5,7 +5,7 @@
 (p "Today we discussed chapters 1 and 2 of "
   (link "Your Code as a Crime Scene"
         "https://pragprog.com/book/atcrime/your-code-as-a-crime-scene")
-  ". Tuesday, January 18th, we will meet to discuss the next two chapters:"
+  ". Tuesday, January 19th, we will meet to discuss the next two chapters:"
   )
 (ul (list (str "Chapter 3 - Creating an Offender Profile")
           (str "Chapter 4 - Analyze Hotspots in Large-Scale Systems")))
